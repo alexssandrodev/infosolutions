@@ -40,7 +40,7 @@ function Header() {
                             Fale comigo agora no whatsapp para tirar qualquer dúvida
                             e fazer seu orçamento.
                         </p>
-                        <Link className='whats_button' href=''><span>Whatsapp infosolutions</span></Link>
+                        <Link className='whats_button' href='https://wa.me/84996102818' target='_blanck'><span>Whatsapp infosolutions</span></Link>
                     </div>
                     <div className="development">
                         <Image className='image-dev' src='/development.png' width={200} height={200} alt='Image desenvolvimento de sistemas' />

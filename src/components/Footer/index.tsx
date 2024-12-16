@@ -14,7 +14,7 @@ function Footer() {
                     <Link href='https://inkedin.com/alexssandrodev' target='_blank'><li><IconBrandLinkedin /></li></Link>
                 </ul>
             </div>
-            <Link className='whats_button' href=''><span>Whatsapp infosolutions</span></Link>
+            <Link className='whats_button' href='https://wa.me/84996102818' target='_blanck'><span>Whatsapp infosolutions</span></Link>
             <div className="address">
                 <p>Todos os direitos reservados infosolutions<IconRegistered /> 2020-{today}.</p>
                 <p>Av. Coqueiros, ceara-mirim - RN</p>
