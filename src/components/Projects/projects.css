@@ -1,0 +1,41 @@
+
+.projects__container {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.projects__container .project_list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.projects__container h3 {
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.projects__container h3::after {
+    content: '';
+    width: 10rem;
+    height: .3rem;
+    background-color: var(--color-info);
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    border-radius: 1rem;
+    padding-bottom: .2em;
+  }
+
+@media screen and (min-width: 48rem) {
+    .projects__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 64rem) {
+    .projects__container .project_list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

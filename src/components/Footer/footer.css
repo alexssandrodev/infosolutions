@@ -1,0 +1,31 @@
+
+.footer__container {
+    background-color: var(--gpt-sidebar);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    color: #d7d7d7;
+}
+
+.footer__container .socials h3 {
+    margin-bottom: 2rem;
+}
+
+.footer__container .socials ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer__container .socials ul li {
+    color: #d7d7d7;
+}
+
+@media screen and (min-width: 48rem) {
+    .footer__container {
+        flex-direction: row;
+    }
+}

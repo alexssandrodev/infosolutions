@@ -1,0 +1,10 @@
+
+.serviceitem__container .service {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.serviceitem__container .service p {
+    color: #9f9f9f;
+}

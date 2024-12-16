@@ -1,0 +1,44 @@
+
+.project__container .project {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    border-radius: 1rem;
+}
+
+.project__container .project .image_project {
+    width: 100%;
+    object-fit: cover;
+}
+
+.project .project_infos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.project .project_infos h2 {
+    font-size: 2rem;
+}
+
+.project__container .project .links ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.project .tags {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.project .tags span {
+    color: var(--gpt-text);
+    background-color: var(--color-info);
+    border-radius: 1rem;
+    padding: .5rem;
+}

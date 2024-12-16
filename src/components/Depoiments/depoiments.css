@@ -1,0 +1,22 @@
+
+.depoiments__container {
+    background: url('/bg-depoiments.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 4rem;
+}
+
+.depoiments__container .swiper {
+    padding: 2rem;
+  }
+  
+  .depoiments__container .swiper-pagination-bullet-active {
+    background-color: var(--color-info);
+  }
+  
+  .depoiments__container .swiper-button-prev {
+    color: var(--color-info);
+  }
+  .depoiments__container .swiper-button-next {
+    color: var(--color-info);
+  }

@@ -1,0 +1,24 @@
+
+.sobre__container {
+    margin-top: 4rem;
+}
+
+.sobre__container .sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sobre__container .sobre h3 {
+    background-color: var(--color-info);
+    color: var(--bg);
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 64rem) {
+    .sobre__container .sobre h3 {
+        width: 40rem;
+    }
+}

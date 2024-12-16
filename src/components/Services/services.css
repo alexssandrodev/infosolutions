@@ -1,0 +1,54 @@
+
+.services__container {
+    margin-top: 6rem;
+}
+
+.services__container .services {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.services__container h3 {
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.services__container h3::after {
+    content: '';
+    width: 10rem;
+    height: .3rem;
+    background-color: var(--color-info);
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    border-radius: 1rem;
+    padding-bottom: .2em;
+}
+
+.serviceitem__container .service {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.serviceitem__container .service .title {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.serviceitem__container .service p {
+    color: #605e5e;
+}
+
+.serviceitem__container .service span {
+    color: var(--color-info);
+}
+
+@media screen and (min-width: 64rem) {
+    .services__container .services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

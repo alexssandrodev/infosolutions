@@ -1,0 +1,28 @@
+
+.customer__container {
+    margin-top: 4rem;
+}
+
+.customer__container .customer h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.customer .swiper {
+    padding: 2rem;
+  }
+  
+  .customer .swiper-pagination-bullet-active {
+    background-color: var(--color-info);
+  }
+  
+  .customer .swiper-button-prev {
+    color: var(--color-info);
+  }
+  .customer .swiper-button-next {
+    color: var(--color-info);
+  }
+
+@media screen and (min-width: 64rem) {
+    
+}
