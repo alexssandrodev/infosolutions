@@ -11,20 +11,7 @@
 
 .services__container h3 {
     margin-bottom: 4rem;
-    font-size: 2.5rem;
-    position: relative;
-}
-
-.services__container h3::after {
-    content: '';
-    width: 10rem;
-    height: .3rem;
-    background-color: var(--color-info);
-    position: absolute;
-    bottom: -1rem;
-    left: 0;
-    border-radius: 1rem;
-    padding-bottom: .2em;
+    font-size: 2.4rem;
 }
 
 .serviceitem__container .service {

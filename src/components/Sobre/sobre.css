@@ -10,11 +10,9 @@
 }
 
 .sobre__container .sobre h3 {
-    background-color: var(--color-info);
-    color: var(--bg);
-    padding: 2rem;
+    color: var(--gpt-gray);
     border-radius: 1rem;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
 }
 
 @media screen and (min-width: 64rem) {

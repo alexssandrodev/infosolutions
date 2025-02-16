@@ -1,13 +1,19 @@
 
 .footer__container {
-    background-color: var(--gpt-sidebar);
+    background-color: #ccc;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     justify-content: space-between;
     align-items: center;
-    color: #d7d7d7;
+    color: var(--gpt-gray);
+}
+
+.footer__container .link-whats {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .footer__container .socials h3 {
@@ -21,7 +27,7 @@
 }
 
 .footer__container .socials ul li {
-    color: #d7d7d7;
+    color: var(--gpt-gray);
 }
 
 @media screen and (min-width: 48rem) {

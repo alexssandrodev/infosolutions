@@ -38,7 +38,7 @@
 
 .project .tags span {
     color: var(--gpt-text);
-    background-color: var(--color-info);
+    background-color: #fff;
     border-radius: 1rem;
     padding: .5rem;
 }

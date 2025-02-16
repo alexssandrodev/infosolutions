@@ -9,41 +9,36 @@ import 'swiper/css/autoplay';
 import { A11y, Navigation, Pagination, Scrollbar, Autoplay } from 'swiper/modules';
 
 function Depoiments() {
-    return (
-        <section className="depoiments__container" id='depoiments'>
-            <div className="depoiments container">
-                <h3>Depoimentos dos nossos clientes</h3>
-            </div>
-            <Swiper
-                // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-                autoplay={true}
-                spaceBetween={50}
-                slidesPerView={3}
-                navigation
-                pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
-            >
-                <SwiperSlide>
-                    <img
-                        src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
-                        alt="Image Two"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
-                        alt="Image One"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                ...
-            </Swiper>
-        </section>
-    );
+  return (
+    <section className="depoiments__container" id='depoiments'>
+      <div className="depoiments container">
+        <h3>Depoimentos dos nossos clientes</h3>
+      </div>
+      <Swiper
+        // install Swiper modules
+        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+        autoplay={true}
+        spaceBetween={50}
+        slidesPerView={3}
+        navigation
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log('slide change')}
+      >
+        <SwiperSlide>
+          <h4>Pirâmide colégio e curso</h4>
+          <p>O site que foi criado ficou muito bom, recomendo a infosolutions.</p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h4>JS automecânica</h4>
+          <p>O sistema para oficinas me atende muito bem,
+            ajuda na gestão da oficina
+          </p>
+        </SwiperSlide>
+      </Swiper>
+    </section>
+  );
 }
 
 export { Depoiments };
